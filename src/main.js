@@ -1,8 +1,6 @@
 import 'js/global';
 
-// import 'js/animation';
+import {init, playAnimation} from 'js/safe.js'
 
-// import 'js/sphere';
-// import 'js/duck.js';
 
-import 'js/floating.js'
+init().then(() => playAnimation())

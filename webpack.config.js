@@ -82,6 +82,7 @@ module.exports = {
 			patterns: [
 				{from:'src/assets/images/content',to:'assets/images/content'},
         {from:'src/assets/images/general',to:'assets/images/general'},
+        {from:'src/assets/models',to:'assets/models'},
         {from:'src/assets/images/favicon',to:'assets/images/favicon'} 
 			]
 		}), 
